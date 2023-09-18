@@ -1,6 +1,6 @@
 # Exercicios-HTML-CSS
 Atividades de HTML CSS e Curso do Guanabara
 
-Erros e Resolução de problemas de códigos 
-Criando o código utilizando os arquvivos em pdf dos exércicios
-(Descrevir alguns comentários nos códigos para cada linhas-de-códigos)  
+1.Aprendir os erros e resolução de problemas de códigos 
+2.Criando o código utilizando os arquvivos em pdf dos exércicios
+3.Descrevir alguns comentários nos códigos para cada linhas-de-códigos  
