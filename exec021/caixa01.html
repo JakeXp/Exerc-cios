@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1{ /*aqui e configuração de borda do Titulo da pagina(Box-level)*/
+
+          background-color: lightgray;
+          
+          height: 300px; /*aqui e a altura*/ 
+          
+          width: 300px; /*aqui e largura*/
+
+          /*Shorthand (Atalhos rapidos)*/
+
+          border: 10px solid darklategray;
+          
+          padding: 10px;
+
+          margin: 20px auto 40px auto;
+
+          outline: 5px dashed salmon;
+          
+          /*Borda(Border)
+          border-width: 10px; border-width:largura da borda
+          border-style: solid; border-style: solida
+          border-color: darkgray; border-color -> a cor */
+
+          /*Preenchimento(padding) 
+          padding-top: 10px; (preenchimento do topo)
+          padding-right: 10px; (preenchimento a direita)
+          padding-bottom: 10px; (preenchimento a baixo)
+          padding-left: 10px; (preenchimento a esquerda)*/
+
+          /*Margem(Margin) 
+          margin-top: 10px; (margem do topo)
+          margin-right: 10px; (margem do lado direto)
+          margin-bottom: 10px; (margem de baixo)
+          margin-left: 10px; (mardem do lado esquerdo)*/
+          
+          /*Fora da linha (Outline)
+          outline-width: 10px;
+          outline-style: dashed;
+          outline-color: salmon;*/
+
+          
+        }
+
+        a{ /*aqui e configuração de borda do link da pagina*/
+            border-width: 10px; /*border-width a largura da borda*/
+            border-style: groove;/*border-style -> solida */
+            border-color: red;/*border-color -> vermelha*/
+
+            padding-top: 10px;/*preenchimento do topo*/
+            padding-right: 10px;/*preenchimento a direita*/
+            padding-bottom: 10px;/*preenchimento a baixo*/
+            padding-left: 10px;/*preenchimento a esquerda*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1><!--<h1> Titulo-->>
+    <p>Parágrafos também são exemplos de box-level,mas os <a href="#">links são exemplos de 
+        caixas inline-level
+    </a><!--<a>Link de site-->Vamos ver como  tudo isso funciona</p><!--<p>Paragrafo-->
+</body>
+</html>

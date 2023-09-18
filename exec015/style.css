@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body{
+    background-color: lightgoldenrodyellow;/*BACKGROUND-COLOR : + COR parte de trás da pagina cor*/
+    font-family: Arial, Helvetica, sans-serif;/*Formatos de Fonte: Tem arial  o navegador tentará usar "Arial". Se "Arial" não estiver disponível, ele tentará "Helvetica" e,
+     se nenhum dos dois estiver disponível, usará uma fonte sans-serif genérica*/
+    font-size: 20px;/* font-size:(altura dos caracteres) e (px) pixels*/
+}
+h1 {/*TItulo da pagina e usada a <h1>*/
+    color: brown;/*controla a cor dos caracteres do texto exibido*/
+    background-color: darkgoldenrod;/*BACKGROUND-COLOR : + COR parte de trás da pagina cor*/
+}
+h2{ /*Sub-Titulo da pagina*/
+    color: darkred;/*controla a cor dos caracteres do texto exibido*/
+}
+p{/*(P)paragrafo da pagina*/
+    text-align: justify;/*text-align e usada para alinhar o contéudo e
+    justify: Justifica o texto, alinhando tanto à esquerda quanto à direita e espaçando as palavras para preencher o espaço.*/
+}

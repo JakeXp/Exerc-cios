@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*Medidas Absolutas
+            cm, mm, in, (px), pt, pc
+            
+            Medidas Relativas
+            (em), ex, rem, vw, %
+             reconmendação da css
+             16px geralmente = 1 em
+            */
+            
+            font-size: 16px;
+            font-weight: normal;
+            font-style: bolder;
+            text-decoration: underline;
+            /*font-weight: ex: lighter,normal,bold,bolder 
+            (100-900)
+            font-style: para negrito ex:italic,bolder 
+            text-decoration: underline
+
+            */
+        }
+        h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            /*font-style -> font-wieght -> font-size ->font-family */
+        }
+        h2{
+            font: italic bolder 3em 'Arial',sans-serif;
+            /*Utilizando tudo em 1 usando <font>*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1><!--Titulo-->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        At asperiores veniam quidem ipsum qui harum, animi dicta illum assumenda alias numquam in dignissimos 
+        accusamus hic ut. Magni, commodi! Natus, autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Nostrum dolores minima deleniti. Veniam deserunt quod odit voluptatum nam eos laudantium, non excepturi dicta alias minus sequi aliquam, distinctio doloremque eius?
+    </p><!--(P)lorem x2-->
+    <h2>Subtitulo de exercicío</h2><!--Subtitulo-->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi tempore illum excepturi unde nemo sed facere officia id laboriosam. 
+        Sint, reiciendis doloribus. Cum ipsum porro suscipit autem totam hic. Animi! Lorem, ipsum dolor sit amet consectetur 
+        adipisicing elit. Veniam perferendis, nostrum rem tempora praesentium consectetur maxime dignissimos pariatur veritatis aspernatur placeat eaque quas accusantium 
+        natus nulla hic modi facere soluta!</p><!--(P)lorem x2-->
+</body>
+</html>
